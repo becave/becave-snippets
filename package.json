@@ -1,7 +1,7 @@
 {
   "name": "styled-components-storybook-snippets",
   "displayName": "styled-components & storybook snippets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Two very useful snippets - for styled.tsx files & *.stories.tsx files",
   "categories": [
     "Snippets"
