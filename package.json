@@ -1,0 +1,22 @@
+{
+  "name": "styled-components-storybook-snippets",
+  "displayName": "styled-components & storybook snippets",
+  "version": "0.0.1",
+  "description": "Two very useful snippets - for styled.tsx files & *.stories.tsx files",
+  "categories": [
+    "Snippets"
+  ],
+  "repository": "https://github.com/beeinger/styled-components-storybook-snippets",
+  "publisher": "beeinger",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "^1.52.0"
+  }
+}
