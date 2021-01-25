@@ -5,7 +5,6 @@
 <br/>
 
 ```json
-{
   "styled-component": {
     "prefix": ["sc"],
     "body": [
@@ -32,7 +31,7 @@
       "import ${1:Component} from './${1:Component}';",
       "",
       "export default {",
-      "  title: '${1:Component}',",
+      "  title: '${2:Folder}/${1:Component}',",
       "  component: ${1:Component},",
       "};",
       "",
@@ -44,5 +43,4 @@
     ],
     "description": "A Storybook story template"
   }
-}
 ```

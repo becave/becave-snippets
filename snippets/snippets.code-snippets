@@ -16,7 +16,7 @@
       "import ${1:Component} from './${1:Component}';",
       "",
       "export default {",
-      "  title: '${1:Component}',",
+      "  title: '${2:Folder}/${1:Component}',",
       "  component: ${1:Component},",
       "};",
       "",
