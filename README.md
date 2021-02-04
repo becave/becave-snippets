@@ -2,6 +2,8 @@
 
 ### Usage - Start typing _sc_
 
+_Tip: Use in ComponentName/styles.tsx_
+
 <br/>
 
 ```json
@@ -20,6 +22,8 @@
 # Storybook story stippet
 
 ### Usage - Start typing _st_
+
+_Tip: Use in ComponentName/ComponentName.stories.tsx_
 
 <br/>
 
@@ -42,5 +46,20 @@
       "};"
     ],
     "description": "A Storybook story template"
+  }
+```
+
+# Export default from snippet
+
+### Usage - Start typing _ef_
+
+_Tip: Use in ComponentName/index.tsx_
+
+<br/>
+
+```json
+  "export default from": {
+    "prefix": ["ef"],
+    "body": ["export { default } from './${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/}'"]
   }
 ```
