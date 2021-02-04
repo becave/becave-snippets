@@ -1,15 +1,22 @@
 {
   "name": "becave-snippets",
   "displayName": "Becave Snippets",
-  "version": "0.1.0",
-  "description": "So far two very useful snippets - for styled.tsx files & *.stories.tsx files",
+  "version": "0.2.0",
+  "description": "So far three useful snippets - for styled.tsx files, *.stories.tsx files and default exports from",
   "categories": [
     "Snippets"
   ],
-  "repository": "https://github.com/beeinger/becave-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beeinger/becave-snippets"
+  },
   "publisher": "beeinger",
   "contributes": {
     "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
       {
         "language": "typescriptreact",
         "path": "./snippets/snippets.code-snippets"
@@ -17,6 +24,6 @@
     ]
   },
   "engines": {
-    "vscode": "^1.52.0"
+    "vscode": "^1.42.0"
   }
 }

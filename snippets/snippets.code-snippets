@@ -27,5 +27,9 @@
       "};"
     ],
     "description": "A Storybook story template"
+  },
+  "export default from": {
+    "prefix": ["ef"],
+    "body": ["export { default } from './${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/}'"]
   }
 }
