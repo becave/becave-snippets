@@ -13,14 +13,14 @@
     "prefix": ["st"],
     "body": [
       "import faker from 'faker';",
-      "import ${1:Component} from './${1:Component}';",
+      "import ${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/} from './${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/}';",
       "",
       "export default {",
-      "  title: '${2:Folder}/${1:Component}',",
-      "  component: ${1:Component},",
+      "  title: '${2:Folder}/${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/}',",
+      "  component: ${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/},",
       "};",
       "",
-      "export const Basic = (args: any) => <${1:Component} {...args} />;",
+      "export const Basic = (args: any) => <${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/} {...args} />;",
       "",
       "Basic.args = {",
       "  src: faker.image.people(),",
@@ -30,6 +30,9 @@
   },
   "export default from": {
     "prefix": ["ef"],
-    "body": ["export { default } from './${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/}'"]
+    "body": [
+      "export { default } from './${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/}'"
+    ],
+    "description": "An export default from statement"
   }
 }

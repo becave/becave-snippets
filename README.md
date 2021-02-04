@@ -1,6 +1,8 @@
-# styled-components component snippet
+# Available snippets:
 
-### Usage - Start typing _sc_
+## styled-components component snippet
+
+### Usage - Start typing ... _sc_
 
 _Tip: Use in ComponentName/styles.tsx_
 
@@ -9,19 +11,13 @@ _Tip: Use in ComponentName/styles.tsx_
 ```json
   "styled-component": {
     "prefix": ["sc"],
-    "body": [
-      "export const ${1:Component} = styled${2: .div or (Component) }`",
-      "\t$0",
-      "`;",
-      "${1:Component}.displayName = '${1:Component}';"
-    ],
     "description": "An exported styled component with a displayName"
   }
 ```
 
-# Storybook story stippet
+## Storybook story stippet
 
-### Usage - Start typing _st_
+### Usage - Start typing ... _st_
 
 _Tip: Use in ComponentName/ComponentName.stories.tsx_
 
@@ -30,28 +26,13 @@ _Tip: Use in ComponentName/ComponentName.stories.tsx_
 ```json
   "Storybook story": {
     "prefix": ["st"],
-    "body": [
-      "import faker from 'faker';",
-      "import ${1:Component} from './${1:Component}';",
-      "",
-      "export default {",
-      "  title: '${2:Folder}/${1:Component}',",
-      "  component: ${1:Component},",
-      "};",
-      "",
-      "export const Basic = (args: any) => <${1:Component} {...args} />;",
-      "",
-      "Basic.args = {",
-      "  src: faker.image.people(),",
-      "};"
-    ],
     "description": "A Storybook story template"
-  }
+  },
 ```
 
-# Export default from snippet
+## Export default from snippet
 
-### Usage - Start typing _ef_
+### Usage - Start typing ... _ef_
 
 _Tip: Use in ComponentName/index.tsx_
 
@@ -60,6 +41,6 @@ _Tip: Use in ComponentName/index.tsx_
 ```json
   "export default from": {
     "prefix": ["ef"],
-    "body": ["export { default } from './${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/}'"]
+    "description": "An export default from statement"
   }
 ```
