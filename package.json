@@ -1,7 +1,7 @@
 {
   "name": "becave-snippets",
   "displayName": "Becave Snippets",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "So far three useful snippets - for styled.tsx files, *.stories.tsx files and default exports from",
   "icon": "icon.png",
   "categories": [
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/beeinger/becave-snippets"
+    "url": "https://github.com/becave/becave-snippets"
   },
   "publisher": "beeinger",
   "contributes": {
