@@ -1,8 +1,9 @@
 {
   "name": "becave-snippets",
   "displayName": "Becave Snippets",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "So far three useful snippets - for styled.tsx files, *.stories.tsx files and default exports from",
+  "icon": "icon.png",
   "categories": [
     "Snippets"
   ],
